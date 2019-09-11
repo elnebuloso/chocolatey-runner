@@ -1,0 +1,181 @@
+{
+    "main": {
+        "all": [
+            "chocolateygui"
+        ],
+        "home": [],
+        "work": []
+    },
+    "drivers": {
+        "all": [],
+        "home": [
+            "geforce-experience"
+        ],
+        "work": []
+    },
+    "browsers": {
+        "all": [
+            "googlechrome",
+            "firefox"
+        ],
+        "home": [],
+        "work": [
+            "opera"
+        ]
+    },
+    "compression": {
+        "all": [
+            "7zip.install",
+            "winrar"
+        ],
+        "home": [],
+        "work": []
+    },
+    "utilities": {
+        "all": [
+            "notepadplusplus.install",
+            "launchy",
+            "cdburnerxp",
+            "adobereader",
+            "advanced-renamer.install",
+            "rufus",
+            "ccleaner",
+            "speccy",
+            "pdf24"
+        ],
+        "home": [],
+        "work": [
+            "procmon",
+            "procexp",
+            "thunderbird",
+            "wireshark",
+            "windirstat"
+        ]
+    },
+    "messaging": {
+        "all": [
+            "whatsapp",
+            "slack"
+        ],
+        "home": [
+        ],
+        "work": [
+        ]
+    },
+    "media": {
+        "all": [
+            "vlc",
+            "youtube-dl",
+            "winamp"
+        ],
+        "home": [
+            "filebot --version 4.7.9",
+            "mp3tag",
+            "mp3gain-gui",
+            "makemkv",
+            "xmedia-recode",
+            "calibre",
+            "mp3directcut"
+        ],
+        "work": [
+            "spotify",
+            "amazon-music",
+            "itunes"
+        ]
+    },
+    "storage": {
+        "all": [
+            "dropbox"
+        ],
+        "home": [
+        ],
+        "work": [
+        ]
+    },
+    "imaging": {
+        "all": [
+            "greenshot",
+            "irfanview",
+            "irfanviewplugins",
+            "paint.net",
+            "gimp"
+        ],
+        "home": [
+            "inkscape"
+        ],
+        "work": [
+        ]
+    },
+    "gaming": {
+        "all": [
+        ],
+        "home": [
+            "steam",
+            "teamspeak"
+        ],
+        "work": [
+        ]
+    },
+    "developer-languages": {
+        "all": [
+            "jre8",
+            "corretto8jre",
+            "corretto8jdk",
+            "adoptopenjdk8jre",
+            "adoptopenjdk8",
+            "groovy",
+            "golang",
+            "ruby",
+            "python2",
+            "python3"
+        ],
+        "home": [
+        ],
+        "work": [
+        ]
+    },
+    "developer-tools": {
+        "all": [
+            "putty.install",
+            "filezilla",
+            "winscp.install",
+            "git.install",
+            "winmerge",
+            "nodejs-lts",
+            "yarn",
+            "mremoteng",
+            "yed",
+            "staruml2",
+            "plantuml",
+            "heidisql",
+            "mysql.workbench",
+            "fiddler",
+            "docker-desktop",
+            "kubernetes-cli",
+            "kubernetes-helm",
+            "velocity",
+            "gource",
+            "mkcert"
+        ],
+        "home": [
+        ],
+        "work": [
+            "awscli",
+            "flyway.commandline",
+            "robo3t.install"
+        ]
+    },
+    "ide": {
+        "all": [
+            "phpstorm",
+            "intellijidea-community",
+            "vscode",
+            "androidstudio"
+        ],
+        "home": [
+        ],
+        "work": [
+            "webstorm"
+        ]
+    }
+}

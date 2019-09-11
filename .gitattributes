@@ -1,0 +1,10 @@
+* linguist-language=false
+* text=auto
+
+## SOURCE CODE
+*.ps1      text eol=crlf
+*.json     text
+
+## DOCUMENTATION
+*.md         text
+LICENSE      text
