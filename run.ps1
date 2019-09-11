@@ -5,7 +5,6 @@ param(
     $command,
     [parameter(Mandatory = $false)]
     [String]
-    [ValidatePattern("home|work")]
     $type
 )
 
@@ -13,6 +12,11 @@ $pwd = [string](Get-Location)
 
 if ($command -eq "install")
 {
+    if (!(Test-Path "$pwd/packages.json"))
+    {
+        Copy-Item "$pwd/packages.dist.json" -Destination "$pwd/packages.json"
+    }
+
     $packages = Get-Content -Raw -Path "$pwd/packages.json" | ConvertFrom-Json
 
     foreach ($topic in $packages.PSObject.Properties)
