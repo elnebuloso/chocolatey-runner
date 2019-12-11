@@ -1,181 +1,595 @@
 {
-    "main": {
-        "all": [
-            "chocolateygui"
-        ],
-        "home": [],
-        "work": []
-    },
-    "drivers": {
-        "all": [],
-        "home": [
-            "geforce-experience"
-        ],
-        "work": []
-    },
-    "browsers": {
-        "all": [
-            "googlechrome",
-            "firefox"
-        ],
-        "home": [],
-        "work": [
-            "opera"
-        ]
-    },
-    "compression": {
-        "all": [
-            "7zip.install",
-            "winrar"
-        ],
-        "home": [],
-        "work": []
-    },
-    "utilities": {
-        "all": [
-            "notepadplusplus.install",
-            "launchy",
-            "cdburnerxp",
-            "adobereader",
-            "advanced-renamer.install",
-            "rufus",
-            "ccleaner",
-            "speccy",
-            "pdf24"
-        ],
-        "home": [],
-        "work": [
-            "procmon",
-            "procexp",
-            "thunderbird",
-            "wireshark",
-            "windirstat"
-        ]
-    },
-    "messaging": {
-        "all": [
-            "whatsapp",
-            "slack"
-        ],
-        "home": [
-        ],
-        "work": [
-        ]
-    },
-    "media": {
-        "all": [
-            "vlc",
-            "youtube-dl",
-            "winamp"
-        ],
-        "home": [
-            "filebot --version 4.7.9",
-            "mp3tag",
-            "mp3gain-gui",
-            "makemkv",
-            "xmedia-recode",
-            "calibre",
-            "mp3directcut"
-        ],
-        "work": [
-            "spotify",
-            "amazon-music",
-            "itunes"
-        ]
-    },
-    "storage": {
-        "all": [
-            "dropbox"
-        ],
-        "home": [
-        ],
-        "work": [
-        ]
-    },
-    "imaging": {
-        "all": [
-            "greenshot",
-            "irfanview",
-            "irfanviewplugins",
-            "paint.net",
-            "gimp"
-        ],
-        "home": [
-            "inkscape"
-        ],
-        "work": [
-        ]
-    },
-    "gaming": {
-        "all": [
-        ],
-        "home": [
-            "steam",
-            "teamspeak"
-        ],
-        "work": [
-        ]
-    },
-    "developer-languages": {
-        "all": [
-            "jre8",
-            "corretto8jre",
-            "corretto8jdk",
-            "adoptopenjdk8jre",
-            "adoptopenjdk8",
-            "groovy",
-            "golang",
-            "ruby",
-            "python2",
-            "python3"
-        ],
-        "home": [
-        ],
-        "work": [
-        ]
-    },
-    "developer-tools": {
-        "all": [
-            "putty.install",
-            "filezilla",
-            "winscp.install",
-            "git.install",
-            "winmerge",
-            "nodejs-lts",
-            "yarn",
-            "mremoteng",
-            "yed",
-            "staruml2",
-            "plantuml",
-            "heidisql",
-            "mysql.workbench",
-            "fiddler",
-            "docker-desktop",
-            "kubernetes-cli",
-            "kubernetes-helm",
-            "velocity",
-            "gource",
-            "mkcert"
-        ],
-        "home": [
-        ],
-        "work": [
-            "awscli",
-            "flyway.commandline",
-            "robo3t.install"
-        ]
-    },
-    "ide": {
-        "all": [
-            "phpstorm",
-            "intellijidea-community",
-            "vscode",
-            "androidstudio"
-        ],
-        "home": [
-        ],
-        "work": [
-            "webstorm"
-        ]
-    }
+    "packages": [
+        {
+            "name": "7zip.install",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "adobereader",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "adoptopenjdk8",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "adoptopenjdk8jre",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "advanced-renamer.install",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "autohotkey",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "awscli",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "boostnote",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "burp-suite-free-edition",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "calibre",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "ccleaner",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "cdburnerxp",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "cdex",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "chocolateygui",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "corretto8jdk",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "corretto8jre",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "docker-desktop",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "dropbox",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "fiddler",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "filebot",
+            "opts": "--version 4.7.9",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "filezilla",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "firefox",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "flyway.commandline",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "geforce-experience",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "ghostscript",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "gimp",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "git.install",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "golang",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "googlechrome",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "gource",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "graphviz",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "greenshot",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "groovy",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "heidisql",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "inkscape",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "irfanview",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "irfanviewplugins",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "jre8",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "kubernetes-cli",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "kubernetes-helm",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "lepton",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "makemkv",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "minio-client",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "mkcert",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "mp3directcut",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "mp3gain-gui",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "mp3tag",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "mremoteng",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "mysql.workbench",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "nodejs-lts",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "notepadplusplus.install",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "paint.net",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "pdf24",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "phpstorm",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "plantuml",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "procexp",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "procmon",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "putty.install",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "python2",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "python3",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "ruby",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "rufus",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "slack",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "softerraldapbrowser",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "sourcetree",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "speccy",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "spotify",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "staruml2",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "steam",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "sysinternals",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "teamspeak",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "terminus",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "thunderbird",
+            "tags": [
+                "work"
+            ]
+        },
+        {
+            "name": "treesizefree",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "velocity",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "vlc",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "vscode",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "whatsapp",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "winmerge",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "winrar",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "winscp.install",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "wireshark",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "xmedia-recode",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "yarn",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "yed",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "youtube-dl",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "youtube-mp3",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "zap",
+            "tags": [
+                "home",
+                "work"
+            ]
+        }
+    ]
 }

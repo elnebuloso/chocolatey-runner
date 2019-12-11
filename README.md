@@ -7,25 +7,8 @@ Powershell Runner for https://chocolatey.org
 - copy packages.dist.json to packages.json
 - edit packages.json
 
-### nodes
-
-- all: default node, any packages defined here will be installed
-- home: e.g. packages for installing at home
-- work: e.g. packages for installing at work
-- next to the all node any other nodes can be created
+## run
 
 ```
-.\run.ps1 install [node]
-
-## e.g. installs all packages from all and home
-.\run.ps1 install home
-
-## e.g. installs all packages from all and work
-.\run.ps1 install work
-```
-
-## update
-
-```
-.\run.ps1 update
+.\run.ps1 [tag]
 ```
