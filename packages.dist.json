@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "7zip.install",
+            "name": "7zip",
             "tags": [
                 "home",
                 "work"
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "name": "advanced-renamer.install",
+            "name": "advanced-renamer",
             "tags": [
                 "home",
                 "work"
@@ -177,7 +177,7 @@
             ]
         },
         {
-            "name": "git.install",
+            "name": "git",
             "tags": [
                 "home",
                 "work"
@@ -337,7 +337,7 @@
             ]
         },
         {
-            "name": "notepadplusplus.install",
+            "name": "notepadplusplus",
             "tags": [
                 "home",
                 "work"
@@ -382,7 +382,7 @@
             ]
         },
         {
-            "name": "putty.install",
+            "name": "putty",
             "tags": [
                 "home",
                 "work"
@@ -527,7 +527,7 @@
             ]
         },
         {
-            "name": "winscp.install",
+            "name": "winscp",
             "tags": [
                 "home",
                 "work"
