@@ -110,6 +110,20 @@
             ]
         },
         {
+            "name": "corretto11jdk",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "corretto11jre",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
             "name": "docker-desktop",
             "tags": [
                 "home",
