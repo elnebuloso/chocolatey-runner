@@ -36,6 +36,13 @@
             ]
         },
         {
+            "name": "androidstudio",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
             "name": "autohotkey",
             "tags": [
                 "home",
@@ -229,6 +236,13 @@
         },
         {
             "name": "inkscape",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "intellijidea-community",
             "tags": [
                 "home",
                 "work"
