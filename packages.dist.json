@@ -17,13 +17,11 @@
         {
             "name": "adoptopenjdk8",
             "tags": [
-                "work"
             ]
         },
         {
             "name": "adoptopenjdk8jre",
             "tags": [
-                "work"
             ]
         },
         {
@@ -56,7 +54,8 @@
         {
             "name": "bulk-crap-uninstaller",
             "tags": [
-                "home"
+                "home",
+                "work"
             ]
         },
         {
@@ -547,8 +546,6 @@
         {
             "name": "yarn",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {

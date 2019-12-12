@@ -4,12 +4,6 @@ param(
 )
 
 $pwd = [string](Get-Location)
-
-if (!(Test-Path "$pwd/packages.json"))
-{
-    Copy-Item "$pwd/packages.dist.json" -Destination "$pwd/packages.json"
-}
-
 $packages = Get-Content -Raw -Path "$pwd/packages.json" | ConvertFrom-Json | Select-Object -expand packages
 $packagesToDelete = @()
 
