@@ -102,15 +102,11 @@
         {
             "name": "corretto8jdk",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
             "name": "corretto8jre",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
