@@ -36,8 +36,6 @@
         {
             "name": "autohotkey",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
@@ -56,7 +54,6 @@
         {
             "name": "burp-suite-free-edition",
             "tags": [
-                "work"
             ]
         },
         {
@@ -151,8 +148,6 @@
         {
             "name": "flyway.commandline",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
@@ -184,7 +179,6 @@
         {
             "name": "golang",
             "tags": [
-                "work"
             ]
         },
         {
@@ -218,7 +212,6 @@
         {
             "name": "groovy",
             "tags": [
-                "work"
             ]
         },
         {
@@ -374,15 +367,11 @@
         {
             "name": "procexp",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
             "name": "procmon",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
@@ -395,19 +384,16 @@
         {
             "name": "python2",
             "tags": [
-                "work"
             ]
         },
         {
             "name": "python3",
             "tags": [
-                "work"
             ]
         },
         {
             "name": "ruby",
             "tags": [
-                "work"
             ]
         },
         {
@@ -445,14 +431,13 @@
         {
             "name": "spotify",
             "tags": [
+                "home",
                 "work"
             ]
         },
         {
             "name": "staruml2",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
@@ -464,8 +449,6 @@
         {
             "name": "sysinternals",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
@@ -546,8 +529,6 @@
         {
             "name": "wireshark",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
