@@ -6,6 +6,8 @@ param(
 $pwd = [string](Get-Location)
 $packages = Get-Content -Raw -Path "$pwd/packages.json" | ConvertFrom-Json | Select-Object -expand packages
 $packagesToDelete = @()
+$packagesToInstall = @()
+$packagesToInstallWithOpts = @()
 
 foreach ($package in $packages)
 {
@@ -16,9 +18,28 @@ foreach ($package in $packages)
 
     if ($package.tags.count -gt 0 -and $package.tags -contains $tag)
     {
-        choco upgrade -y $package.name $package.opts
+        if (-not([string]::IsNullOrEmpty($package.opts)))
+        {
+            $packageName = $package.name
+            $packageOptions = $package.opts
+            $packagesToInstallWithOpts += "$packageName $packageOptions"
+        }
+
+        if (([string]::IsNullOrEmpty($package.opts)))
+        {
+            $packagesToInstall += $package.name
+        }
     }
 }
 
 $packagesToDelete = $packagesToDelete | Sort-Object
+$packagesToInstall = $packagesToInstall | Sort-Object
+$packagesToInstallWithOpts = $packagesToInstallWithOpts | Sort-Object
+
 choco uninstall -y $packagesToDelete
+choco upgrade -y $packagesToInstall
+
+foreach ($package in $packagesToInstallWithOpts)
+{
+    choco upgrade -y $package
+}

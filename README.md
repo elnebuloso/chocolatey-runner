@@ -9,8 +9,11 @@ Powershell Runner for https://chocolatey.org
 
 ## run
 
+- installs all packages with given tag
+- uninstalls all packages that are not tagged with the given tag
+
 ```
-.\run.ps1 [tag]
+.\setup.ps1 [tag]
 ```
 
 # useful commands
