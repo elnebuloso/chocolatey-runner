@@ -253,8 +253,10 @@
             ]
         },
         {
-            "name": "jre8",
+            "name": "javaruntime",
             "tags": [
+                "home",
+                "work"
             ]
         },
         {
