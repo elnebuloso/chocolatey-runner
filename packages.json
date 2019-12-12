@@ -15,13 +15,17 @@
             ]
         },
         {
-            "name": "adoptopenjdk8",
+            "name": "adoptopenjdk",
             "tags": [
+                "home",
+                "work"
             ]
         },
         {
-            "name": "adoptopenjdk8jre",
+            "name": "adoptopenjdkjre",
             "tags": [
+                "home",
+                "work"
             ]
         },
         {
@@ -104,20 +108,6 @@
         },
         {
             "name": "corretto8jre",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "corretto11jdk",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "corretto11jre",
             "tags": [
                 "home",
                 "work"
@@ -265,8 +255,6 @@
         {
             "name": "jre8",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
