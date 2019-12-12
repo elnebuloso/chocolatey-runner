@@ -12,3 +12,9 @@ Powershell Runner for https://chocolatey.org
 ```
 .\run.ps1 [tag]
 ```
+
+# useful commands
+
+```
+choco list --local-only
+```

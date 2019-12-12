@@ -52,6 +52,12 @@
             ]
         },
         {
+            "name": "bulk-crap-uninstaller",
+            "tags": [
+                "home"
+            ]
+        },
+        {
             "name": "burp-suite-free-edition",
             "tags": [
             ]

@@ -14,14 +14,12 @@ $packages = Get-Content -Raw -Path "$pwd/packages.json" | ConvertFrom-Json | Sel
 
 foreach ($package in $packages)
 {
-    Clear-Host
-
-    if ($package.tags -notcontains $tag)
+    if ($package.tags.count -eq 0 -or $package.tags -notcontains $tag)
     {
         choco uninstall -y $package.name
     }
 
-    if ($package.tags -contains $tag)
+    if ($package.tags.count -gt 0 -and $package.tags -contains $tag)
     {
         choco upgrade -y $package.name $package.opts
     }
