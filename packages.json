@@ -38,7 +38,6 @@
         {
             "name": "androidstudio",
             "tags": [
-                "home",
                 "work"
             ]
         },
@@ -88,6 +87,13 @@
             ]
         },
         {
+            "name": "ccenhancer",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
             "name": "cdburnerxp",
             "tags": [
                 "home",
@@ -117,7 +123,21 @@
             ]
         },
         {
+            "name": "curl",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
             "name": "docker-desktop",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "dos2unix",
             "tags": [
                 "home",
                 "work"
@@ -262,6 +282,12 @@
             ]
         },
         {
+            "name": "itunes",
+            "tags": [
+                "home"
+            ]
+        },
+        {
             "name": "javaruntime",
             "tags": [
                 "home",
@@ -293,6 +319,13 @@
             "name": "makemkv",
             "tags": [
                 "home"
+            ]
+        },
+        {
+            "name": "meteor",
+            "tags": [
+                "home",
+                "work"
             ]
         },
         {
@@ -512,6 +545,13 @@
         },
         {
             "name": "vscode",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "wget",
             "tags": [
                 "home",
                 "work"
