@@ -151,6 +151,18 @@
             ]
         },
         {
+            "name": "exiftool",
+            "tags": [
+                "home"
+            ]
+        },
+        {
+            "name": "exiftoolgui",
+            "tags": [
+                "home"
+            ]
+        },
+        {
             "name": "fiddler",
             "tags": [
                 "home",
