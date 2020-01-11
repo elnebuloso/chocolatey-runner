@@ -221,6 +221,13 @@
             ]
         },
         {
+            "name": "gitversion.portable",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
             "name": "golang",
             "tags": [
             ]
