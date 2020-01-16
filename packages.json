@@ -38,6 +38,7 @@
         {
             "name": "androidstudio",
             "tags": [
+                "home",
                 "work"
             ]
         },
@@ -189,6 +190,8 @@
         {
             "name": "flyway.commandline",
             "tags": [
+                "home",
+                "work"
             ]
         },
         {
@@ -435,11 +438,15 @@
         {
             "name": "procexp",
             "tags": [
+                "home",
+                "work"
             ]
         },
         {
             "name": "procmon",
             "tags": [
+                "home",
+                "work"
             ]
         },
         {
@@ -509,6 +516,13 @@
             ]
         },
         {
+            "name": "staruml3",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
             "name": "steam",
             "tags": [
                 "home"
@@ -517,6 +531,8 @@
         {
             "name": "sysinternals",
             "tags": [
+                "home",
+                "work"
             ]
         },
         {
@@ -621,6 +637,8 @@
         {
             "name": "yarn",
             "tags": [
+                "home",
+                "work"
             ]
         },
         {
