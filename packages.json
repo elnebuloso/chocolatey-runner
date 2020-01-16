@@ -566,6 +566,13 @@
             ]
         },
         {
+            "name": "trid",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
             "name": "velocity",
             "tags": [
                 "home",
