@@ -430,6 +430,13 @@
             ]
         },
         {
+            "name": "poshgit",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
             "name": "procexp",
             "tags": [
                 "home",
