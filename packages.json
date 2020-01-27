@@ -126,6 +126,7 @@
         },
         {
             "name": "docker-desktop",
+            "opts": "--version=2.1.0.5",
             "tags": [
                 "home",
                 "work"
@@ -166,7 +167,9 @@
         },
         {
             "name": "filebot",
+            "opts": "--version=4.7.9",
             "tags": [
+                "home"
             ]
         },
         {
