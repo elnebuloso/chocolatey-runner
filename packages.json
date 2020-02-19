@@ -167,7 +167,6 @@
         },
         {
             "name": "filebot",
-            "opts": "--version=4.7.9",
             "tags": [
                 "home"
             ]
