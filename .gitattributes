@@ -8,3 +8,6 @@
 ## DOCUMENTATION
 *.md         text
 LICENSE      text
+
+## GRAPHICS
+*.png  binary
