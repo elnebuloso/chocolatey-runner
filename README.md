@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/elnebuloso/chocolatey-runner/master/logo.png" width="100%"/>
+
 # chocolatey-runner
 
 Powershell Runner for https://chocolatey.org
