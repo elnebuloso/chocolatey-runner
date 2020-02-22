@@ -4,12 +4,22 @@ Powershell Runner for https://chocolatey.org
 
 ## install packages from packages.json
 
-- copy packages.dist.json to packages.json
-- edit packages.json
+- edit packages.json, add packages
+
+```
+{
+    "name": "docker-desktop",
+    "opts": "--version=2.1.0.5",
+    "tags": [
+        "home",
+        "work"
+    ]
+},
+```
 
 ## run
 
-- installs all packages for th given tag
+- installs all packages for a given tag
 - uninstalls all packages that are not tagged for the given tag
 
 ```
