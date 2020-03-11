@@ -36,14 +36,14 @@ $packagesToDelete = $packagesToDelete | Sort-Object
 $packagesToInstall = $packagesToInstall | Sort-Object
 $packagesToInstallWithOpts = $packagesToInstallWithOpts | Sort-Object
 
-$command = "choco uninstall -Y $packagesToDelete"
+$command = "choco uninstall --yes $packagesToDelete"
 Invoke-Expression $command
 
-$command = "choco upgrade -Y $packagesToInstall"
+$command = "choco upgrade --yes $packagesToInstall"
 Invoke-Expression $command
 
 foreach ($package in $packagesToInstallWithOpts)
 {
-    $command = "choco install -Y $package"
+    $command = "choco install --yes $package"
     Invoke-Expression $command
 }
