@@ -415,6 +415,12 @@
             ]
         },
         {
+            "name": "nvidia-display-driver",
+            "tags": [
+                "work"
+            ]
+        },
+        {
             "name": "paint.net",
             "tags": [
                 "home",
