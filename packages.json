@@ -533,6 +533,7 @@
         },
         {
             "name": "spotify",
+            "opts": "--version=1.1.26.501 --allow-downgrade --ignore-checksums",
             "tags": [
                 "home",
                 "work"
