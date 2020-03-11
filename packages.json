@@ -519,14 +519,14 @@
         {
             "name": "speccy",
             "tags": [
-                "home"
+                "home",
+                "work"
             ]
         },
         {
             "name": "spotify",
             "tags": [
-                "home",
-                "work"
+                "home"
             ]
         },
         {
