@@ -359,8 +359,6 @@
         {
             "name": "minio-client",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
@@ -697,15 +695,11 @@
         {
             "name": "youtube-mp3",
             "tags": [
-                "home",
-                "work"
             ]
         },
         {
             "name": "zap",
             "tags": [
-                "home",
-                "work"
             ]
         }
     ]
