@@ -701,6 +701,12 @@
             "name": "zap",
             "tags": [
             ]
+        },
+        {
+            "name": "zoom-client",
+            "tags": [
+                "work"
+            ]
         }
     ]
 }
