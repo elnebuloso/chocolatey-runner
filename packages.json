@@ -123,6 +123,12 @@
             ]
         },
         {
+            "name": "discord",
+            "tags": [
+                "home"
+            ]
+        },
+        {
             "name": "docker-desktop",
             "opts": "--version=2.1.0.5",
             "tags": [
