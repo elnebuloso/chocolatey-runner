@@ -117,6 +117,7 @@
         },
         {
             "name": "cports",
+            "opts": "--ignore-checksums",
             "tags": [
                 "home",
                 "work"
