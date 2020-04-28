@@ -11,7 +11,7 @@ Powershell Runner for https://chocolatey.org
 ```
 {
     "name": "docker-desktop",
-    "opts": "--version=2.1.0.5",
+    "opts": "--version=2.1.0.5 --ignore-checksums",
     "tags": [
         "home",
         "work"
