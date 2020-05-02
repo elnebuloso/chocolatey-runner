@@ -3,8 +3,24 @@ param(
     [String]$tag
 )
 
+$userHome = Resolve-Path "~"
+
+$paths = @(
+    "$userHome/Google Drive/choco/packages.json",
+    "$userHome/Dropbox/choco/packages.json",
+    "$userHome/choco/packages.json"
+)
+
+foreach ($packageJson in $paths) {
+    Write-Host $packageJson
+
+    if([System.IO.File]::Exists($packageJson)) {
+        break
+    }
+}
+
 $pwd = [string](Get-Location)
-$packages = Get-Content -Raw -Path "$pwd/packages.json" | ConvertFrom-Json | Select-Object -expand packages
+$packages = Get-Content -Raw -Path $packageJson | ConvertFrom-Json | Select-Object -expand packages
 $packagesToDelete = @()
 $packagesToInstall = @()
 $packagesToInstallWithOpts = @()

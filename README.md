@@ -6,7 +6,12 @@ Powershell Runner for https://chocolatey.org
 
 ## install packages from packages.json
 
-- edit packages.json, add packages
+- Copy packages.dist.json to packages.json
+- Place packages.json in one of these directories
+  - %userprofile%\Google Drive\choco\packages.json
+  - %userprofile%\Dropbox\choco\packages.json
+  - %userprofile%\choco\packages.json
+- The Runner will look for the existence in these directories. The first existing file will be used.
 
 ```
 {
