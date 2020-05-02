@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "7zip",
+            "name": "7zip.install",
             "tags": [
                 "home",
                 "work"
@@ -16,20 +16,6 @@
         },
         {
             "name": "adoptopenjdkjre",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "ccleaner",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "ccenhancer",
             "tags": [
                 "home",
                 "work"
@@ -51,21 +37,7 @@
             ]
         },
         {
-            "name": "dos2unix",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
             "name": "dropbox",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "filezilla",
             "tags": [
                 "home",
                 "work"
@@ -79,21 +51,7 @@
             ]
         },
         {
-            "name": "foxitreader",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "gimp",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "git",
+            "name": "git.install",
             "tags": [
                 "home",
                 "work"
@@ -114,47 +72,14 @@
             ]
         },
         {
-            "name": "gource",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "gpg4win",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "graphviz",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "greenshot",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "groovy",
-            "tags": [
-            ]
-        },
-        {
-            "name": "heidisql",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
             "name": "irfanview",
+            "tags": [
+                "home",
+                "work"
+            ]
+        },
+        {
+            "name": "irfanview-shellextension",
             "tags": [
                 "home",
                 "work"
@@ -175,113 +100,7 @@
             ]
         },
         {
-            "name": "kubernetes-cli",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "kubernetes-helm",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "mremoteng",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "nodejs-lts",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
             "name": "notepadplusplus",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "poshgit",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "putty",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "treesizefree",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "vlc",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "vscode",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "whatsapp",
-            "opts": "--ignore-checksums",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "winamp",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "winmerge",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "winrar",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "winscp",
-            "tags": [
-                "home",
-                "work"
-            ]
-        },
-        {
-            "name": "yarn",
             "tags": [
                 "home",
                 "work"
