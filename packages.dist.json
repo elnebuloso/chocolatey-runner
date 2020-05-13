@@ -2,109 +2,108 @@
     "packages": [
         {
             "name": "7zip.install",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "adoptopenjdk",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "adoptopenjdkjre",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "chocolateygui",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "docker-desktop",
-            "opts": "--version=2.1.0.5",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": "--version=2.1.0.5"
+            }
         },
         {
             "name": "dropbox",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "firefox",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "git.install",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "gitversion.portable",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "googlechrome",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "irfanview",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "irfanview-shellextension",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "irfanviewplugins",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "javaruntime",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         },
         {
             "name": "notepadplusplus",
-            "tags": [
-                "home",
-                "work"
-            ]
+            "tags": {
+                "home": "",
+                "work": ""
+            }
         }
     ]
 }
