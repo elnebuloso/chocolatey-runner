@@ -10,7 +10,8 @@ $userHome = Resolve-Path "~"
 $paths = @(
 "$userHome/Google Drive/choco/packages.json",
 "$userHome/Dropbox/choco/packages.json",
-"$userHome/choco/packages.json"
+"$userHome/choco/packages.json",
+"$PSScriptRoot/packages.json"
 )
 
 foreach ($packageJson in $paths)
