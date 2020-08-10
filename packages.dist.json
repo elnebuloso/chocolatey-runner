@@ -2,6 +2,8 @@
     "packages": [
         {
             "name": "7zip.install",
+            "desc": "7-Zip is a file archiver with a high compression ratio.",
+            "url": "https://chocolatey.org/packages/7zip.install",
             "tags": {
                 "home": "",
                 "work": ""
@@ -9,6 +11,8 @@
         },
         {
             "name": "adoptopenjdk",
+            "desc": "AdoptOpenJDK provides prebuilt OpenJDK build binaries. This one uses OpenJDK_HotSpot.",
+            "url": "https://chocolatey.org/packages/adoptopenjdk",
             "tags": {
                 "home": "",
                 "work": ""
@@ -16,6 +20,8 @@
         },
         {
             "name": "adoptopenjdkjre",
+            "desc": "AdoptOpenJDK provides prebuilt OpenJDK build binaries. This one uses OpenJDK_HotSpot.",
+            "url": "https://chocolatey.org/packages/adoptopenjdkjre",
             "tags": {
                 "home": "",
                 "work": ""
@@ -23,6 +29,8 @@
         },
         {
             "name": "chocolateygui",
+            "desc": "A GUI for Chocolatey",
+            "url": "https://chocolatey.org/packages/ChocolateyGUI",
             "tags": {
                 "home": "",
                 "work": ""
@@ -30,6 +38,8 @@
         },
         {
             "name": "docker-desktop",
+            "desc": "A complete and easy-to-install desktop application for building, debugging and testing containerized apps on Windows.",
+            "url": "https://chocolatey.org/packages/docker-desktop/2.3.0.4",
             "tags": {
                 "home": "",
                 "work": "--version=2.1.0.5"
@@ -37,6 +47,8 @@
         },
         {
             "name": "dropbox",
+            "desc": "Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere.",
+            "url": "https://chocolatey.org/packages/dropbox/103.4.383",
             "tags": {
                 "home": "",
                 "work": ""
@@ -44,6 +56,8 @@
         },
         {
             "name": "firefox",
+            "desc": "Bringing together all kinds of awesomeness to make browsing better for you",
+            "url": "https://chocolatey.org/packages/Firefox",
             "tags": {
                 "home": "",
                 "work": ""
@@ -51,6 +65,8 @@
         },
         {
             "name": "git.install",
+            "desc": "Git for Windows offers a native set of tools that bring the full feature set of the Git SCM to Windows",
+            "url": "https://chocolatey.org/packages/git.install",
             "tags": {
                 "home": "",
                 "work": ""
@@ -58,6 +74,8 @@
         },
         {
             "name": "gitversion.portable",
+            "desc": "Derives SemVer information from a repository following GitFlow or GitHubFlow.",
+            "url": "https://chocolatey.org/packages/GitVersion.Portable",
             "tags": {
                 "home": "",
                 "work": ""
@@ -65,6 +83,8 @@
         },
         {
             "name": "googlechrome",
+            "desc": "Chrome is a fast, simple, and secure web browser, built for the modern web.",
+            "url": "https://chocolatey.org/packages/GoogleChrome",
             "tags": {
                 "home": "",
                 "work": ""
@@ -72,6 +92,8 @@
         },
         {
             "name": "irfanview",
+            "desc": "Fast and compact image viewer and converter",
+            "url": "https://chocolatey.org/packages/IrfanView",
             "tags": {
                 "home": "",
                 "work": ""
@@ -79,6 +101,8 @@
         },
         {
             "name": "irfanview-shellextension",
+            "desc": "Shell extension for IrfanView",
+            "url": "https://chocolatey.org/packages/irfanview-shellextension",
             "tags": {
                 "home": "",
                 "work": ""
@@ -86,6 +110,8 @@
         },
         {
             "name": "irfanviewplugins",
+            "desc": "Additional plugins for IrFanView",
+            "url": "https://chocolatey.org/packages/irfanviewplugins",
             "tags": {
                 "home": "",
                 "work": ""
@@ -93,13 +119,17 @@
         },
         {
             "name": "javaruntime",
+            "desc": "JAVA Runtime",
+            "url": "https://chocolatey.org/packages/javaruntime",
             "tags": {
                 "home": "",
                 "work": ""
             }
         },
         {
-            "name": "notepadplusplus",
+            "name": "notepadplusplus.install",
+            "desc": "Notepad++ is a free source code editor and Notepad replacement that supports several languages.",
+            "url": "https://chocolatey.org/packages/notepadplusplus.install",
             "tags": {
                 "home": "",
                 "work": ""
